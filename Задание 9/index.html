@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut" href="image" type="image/x-icon">
+    <link rel="stylesheet" href="styles\main.css">
+    <title>Главная</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+        }
+        #main {
+        display: flex;
+        flex: 1;
+        }
+        #main > article {
+flex: 1;
+}
+#main > nav,
+#main > aside {
+flex: 0 0 20vw;
+background: beige;
+}
+#main > nav {
+order: -1;
+}
+header, footer {
+    background: linear-gradient(#D2B48C, #946B54);
+height: 20vh;
+}
+header, footer, article, nav, aside {
+padding: 1em;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1 align="center">Компания "Рога и копыта"</h1>
+        <h2 align="center">Мы работаем для вас</h2>
+    </header>
+    <nav1>
+        <center>
+            <ul>
+             <a align="center"><a href="index.html"> Главная </a>
+             <a href="about.html">О компании </a>
+             <a href="employee.html">Наши сотрудники</a>
+             <a href="education.html">Обучение </a>
+             <a href="gallery.html">Галерея </a>
+             <a href="order.html">Заказ </a>
+             <a href="fonts.html">Тексты </a>
+             <a target="_blank" class="MVD" href="https://мвд.рф/">Мы чтим уголовный кодекс</a>
+            </ul>
+        </center>
+    </nav1>
+    <div id="main">
+    <nav>
+        <ul class="manu">
+        <li> <a align="center"><a href="index.html"> Главная </a></li><br>
+        <li> <a href="about.html">О компании </a></li><br>
+        <li> <a href="employee.html">Наши сотрудники</a></li><br>
+        <li> <a href="education.html">Обучение </a></li><br>
+        <li> <a href="gallery.html">Галерея </a></li><br>
+        <li> <a href="order.html">Заказ </a></li><br>
+        <li> <a href="fonts.html">Тексты </a></li><br>
+        <li> <a target="_blank" class="MVD" href="https://мвд.рф/">Мы чтим уголовный кодекс</a>
+        </ul>
+    </nav>  
+    <main> 
+        <p align="center"> На рынке рогов и копыт с 1931 года.</p>
+    </main>
+    </div>
+    <footer>
+        <a class="top" href="#top" > Наверх</a>
+        <p><i>©Бендер</i></p>
+    </footer>
+</body>
+</html>

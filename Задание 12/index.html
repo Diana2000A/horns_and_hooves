@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut" href="image" type="image/x-icon">
+    <link rel="stylesheet" href="styles\main.css">
+    <title>Главная</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+        }
+        #main {
+        display: flex;
+        flex: 1;
+        }
+        #main > article {
+flex: 1;
+}
+#main > nav,
+#main > aside {
+flex: 0 0 20vw;
+}
+#main > nav {
+order: -1;
+}header {
+    background: linear-gradient(to right, #ffec8be1, #b784a7d7);
+height: 40vh;
+}
+footer{
+    background: linear-gradient(to right,   #ffec8be1, #b784a7d7);
+height: 200px;
+}
+header, footer, article, nav, aside {
+padding: 1em;
+}
+</style>
+</head>
+<body>
+    
+    <header>
+    <h1>Страховая компания "Золотой полис"</h1>
+        <h2>Мы работаем для вас</h2>
+    </header>
+    <center>
+        <nav1>
+            <ul>
+           <a href="index.html"> Главная </a>
+           <a href="about.html">О компании </a>
+           <a href="employee.html">Наши сотрудники</a>
+           <a href="order.html">Заявка </a>
+           <a target="_blank" class="FZ" href="https://www.consultant.ru/document/cons_doc_LAW_36528/">Мы чтим Федеральный закон</a>
+            </ul>
+        </nav1>
+    </center>
+    <div id="main">
+    <nav>
+        <ul class="manu">
+        <li> <a align="center"><a href="index.html"> Главная </a></li><br>
+        <li> <a href="about.html">О компании </a></li><br>
+        <li> <a href="employee.html">Наши сотрудники</a></li><br>
+        <li><a href="order.html">Заявка </a></li><br>
+        <li> <a target="_blank" class="FZ" href="https://www.consultant.ru/document/cons_doc_LAW_36528/">Мы чтим Федеральный закон</a>
+        </ul>
+    </nav>
+    <main> 
+        <p align="center"> На рынке страхования с 2022г </p>
+    </main>
+    </div>
+    <footer>
+        <a class="top" href="#top" > Наверх</a>
+        <p><i>© Официальный сайт<br>
+            ПАО СК «Золотой полис». 2022 — 2024 гг</i></p>
+    </footer>
+</body>
+</html>
